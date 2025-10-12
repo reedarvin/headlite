@@ -9,3 +9,6 @@ Gettings started:
 - Connect to WiFi: headlite/1234abcd
 - https://headlite.local - root/1234abcd
 - https://10.20.30.1 - root/1234abcd
+- Restore the appropriate backup file (according to your device):
+    - backup-headlite.local-rpi4b-*.tar.gz for Raspberry Pi 4B
+    - backup-headlite.local-rpiz2w-*.tar.gz for Raspberry Pi Zero 2W
