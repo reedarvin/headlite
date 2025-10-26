@@ -1,14 +1,13 @@
-1. Image microSD card with one of the following (I use the Raspberry Pi Imager):
-	- Raspberry Pi 4b - rpi4b-openwrt-24.10.3-30e8e88568b1-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz
-	- Raspberry Pi Zero W2 - rpizw2-openwrt-24.10.3-124f5c0680f6-bcm27xx-bcm2710-rpi-3-squashfs-factory.img.gz
+1. Image microSD card with one of the following base images (I use the Raspberry Pi Imager):
+	- Raspberry Pi 4b - rpi4b-openwrt-*****-rpi-4-squashfs-factory.img.gz
+	- Raspberry Pi Zero W2 - rpizw2-openwrt-*****-rpi-3-squashfs-factory.img.gz
 
 2. Install the microSD card and power on the device
 
-3. Connect to the headlite SSID:
-	- Add a secondary IP address in the 192.168.1.x range (if necessary)
+3. Connect to the headlite SSID (wait a few mins):
 	- SSH to device at root@192.168.1.1 (i.e. ssh root@192.168.1.1)
+	- Add a secondary IP address in the 192.168.1.x range (if necessary)
 
 4. Connect to OpenWrt/LuCI:
-	- Browse to http://192.168.1.1 - Firefox works best
-
-5. Change the lan (br-lan/eth0) interface to DHCP Client, Save & Apply and reboot
+	- Browse to http://192.168.1.1 or http://headlite.local / http://headlitemini.local
+	- Firefox seems to work better than Chrome for this
