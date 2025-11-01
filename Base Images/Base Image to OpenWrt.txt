@@ -9,5 +9,5 @@
 	- Add a secondary IP address in the 192.168.1.x range (if necessary)
 
 4. Connect to OpenWrt/LuCI:
-	- Browse to http://192.168.1.1 or http://headlite.local / http://headlitemini.local
+	- Browse to http://192.168.1.1 or http://headlite.local
 	- Firefox seems to work better than Chrome for this
